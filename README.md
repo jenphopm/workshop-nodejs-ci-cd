@@ -23,3 +23,9 @@ $npm test
 $pm2 start src/index.js
 $pm2 restart all
 ```
+
+## 4. API testing with Postman and [Newman command](https://www.npmjs.com/package/newman)
+```
+$cd postman
+$newman run node-api.postman_collection.json
+```
