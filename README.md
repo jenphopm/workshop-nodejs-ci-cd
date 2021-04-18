@@ -18,6 +18,7 @@ Access to api `http://localhost:3000`
 $npm test
 ```
 
-## 3. Deploy to target server
+## 3. Deploy to target server with [PM2](https://pm2.keymetrics.io/docs/usage/quick-start/)
 ```
+$pm2 start src/index.js
 ```
