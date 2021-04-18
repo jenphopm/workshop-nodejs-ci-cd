@@ -1,3 +1,5 @@
+#!/bin/sh
+
 ssh root@139.59.98.231 <<EOF
   cd ~/workshop-nodejs-ci-cd
   git pull
