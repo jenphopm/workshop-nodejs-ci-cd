@@ -29,4 +29,7 @@ $pm2 restart all
 ```
 $cd postman
 $newman run node-api.postman_collection.json
+
+// Report
+$newman run day01.postman_collection.json -r cli,junit
 ```
