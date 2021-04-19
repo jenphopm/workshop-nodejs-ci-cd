@@ -12,6 +12,7 @@ describe("GET /", function () {
 
   it("respond with hello world 2", async function (done) {
     const response = await request(app).get("/");
+
     expect(response.status).toBe(200);
     expect(response.text).toBe("Hello World");
     done();
