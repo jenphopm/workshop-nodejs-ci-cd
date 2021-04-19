@@ -62,3 +62,30 @@ newman run day01.postman_collection.json -r cli,junit'''
 }
 
 ```
+
+## 6. SonarQube and [Sonar Scanner](https://docs.sonarqube.org/latest/analysis/scan/sonarscanner/)
+
+Config file sonar-project.properties
+```
+sonar.projectKey=node-example
+sonar.projectName=node-example
+sonar.projectVersion=1.0
+
+sonar.sources=src
+sonar.tests=__tests__
+sonar.sourceEncoding=UTF-8
+sonar.javascript.lcov.reportPaths=coverage/lcov.info
+sonar.testExecutionReportPaths=coverage/test-reporter.xml
+```
+
+Edit file <install_directory>/conf/sonar-scanner.properties
+```
+sonar.host.url=http://139.59.226.126:9000
+sonar.login=admin
+sonar.password=xitgmLwmp
+```
+
+Start
+```
+$<install_directory>/bin/sonar-scanner
+```
