@@ -1,4 +1,4 @@
-# Workshop with [NodeJS](https://nodejs.org/en/) ...
+# Workshop with [NodeJS](https://nodejs.org/en/)
 
 List of packages
 * express
