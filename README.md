@@ -8,6 +8,7 @@ List of packages
 
 ## 1. Start node server
 ```
+$npm install
 $npm start
 ```
 
