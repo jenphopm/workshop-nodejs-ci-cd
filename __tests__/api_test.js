@@ -6,7 +6,7 @@ describe("GET /", function () {
     const response = await request(app).get("/");
 
     expect(response.status).toBe(200);
-    expect(response.text).toBe("Hello World 2");
+    expect(response.text).toBe("Hello World 3...");
     done();
   });
 
@@ -14,7 +14,7 @@ describe("GET /", function () {
     const response = await request(app).get("/");
 
     expect(response.status).toBe(200);
-    expect(response.text).toBe("Hello World 2");
+    expect(response.text).toBe("Hello World 3...");
     done();
   });
 });
